@@ -24,6 +24,7 @@ $ pip install -U -r requirements.txt
 2. Write your API key and secret in Flickr_favorites.py L5-L6:
 
 KEY = ''
+
 SECRET = ''
 
 3. Write ID of the user whose Favorite images you want to download in Flickr_favorites.py L7:
