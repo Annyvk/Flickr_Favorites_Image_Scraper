@@ -8,12 +8,13 @@ This directory contains image-scraping software, which allows you to download al
 Python 3.9 or later with all of the pip install -U -r requirements.txt packages including:
 
 flickrapi
+
 requests
 
 **Install**
 
 $ git clone https://github.com/Annyvk/Flickr_Favorites_Image_Scraper
-$ cd flickr_scraper
+
 $ pip install -U -r requirements.txt
 
 **Run**
