@@ -7,9 +7,9 @@ This directory contains image-scraping software, which allows you to download al
 
 Python 3.9 or later with all of the pip install -U -r requirements.txt packages including:
 
-flickrapi
+    flickrapi
 
-requests
+    requests
 
 **Install**
 
@@ -23,19 +23,19 @@ $ pip install -U -r requirements.txt
 
 2. Write your API key and secret in Flickr_favorites.py L5-L6:
 
-KEY = ''
+    KEY = ''
 
-SECRET = ''
+    SECRET = ''
 
 3. Write ID of the user whose Favorite images you want to download in Flickr_favorites.py L7:
 
-USER_ID = ''
+    USER_ID = ''
 
 You can find out the user ID from the url.
 For example:
 
-https://www.flickr.com/photos/67370113@N02/
-"67370113@N02" is user ID.
+    https://www.flickr.com/photos/67370113@N02/
+    "67370113@N02" is user ID.
 
 4. Write a folder path where you want to save the images in Flickr_favorites.py L45, L46, L4
 
